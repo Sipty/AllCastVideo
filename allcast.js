@@ -57,8 +57,8 @@ function selectVideo(video)
   videoDone();
     video.preload = "auto";
    videoElement.src = "x_man_volbi1_1024x512";
-    frameWidth = 800;//videoElement.videoWidth;
-     frameHeight = 480;//videoElement.videoHeight;
+    frameWidth = 1024;//videoElement.videoWidth;
+     frameHeight = 512;//videoElement.videoHeight;
   	
   	startVideo();
   }
