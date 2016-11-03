@@ -56,7 +56,7 @@ function selectVideo(video)
   {
   videoDone();
     video.preload = "auto";
-   videoElement.src = "x_man_hp_800x480.mp4";
+   videoElement.src = "x_man_volbi1_1024x512";
     frameWidth = 800;//videoElement.videoWidth;
      frameHeight = 480;//videoElement.videoHeight;
   	
@@ -155,7 +155,7 @@ function main() {
     //videoElement.addEventListener("ended", videoDone, true);
 
     video.preload = "auto";
-   videoElement.src = "x_man_hp_800x480.mp4";
+   videoElement.src = "x_man_volbi1_1024x512";
     //videoElement.src = "https://dl.dropboxusercontent.com/u/10668480/AllCastVideo/x_man_volbi1_1024x512.ogv";
    // videoElement.src = "x_man_volbi1_1024x512.ogv";
    //videoElement.src = "sky_7_720p_hp.mp4";
