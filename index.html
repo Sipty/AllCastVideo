@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Apical Allcast</title>
+	<link rel="stylesheet" href="allcast.css" type="text/css">
+    <script type="text/javascript" src="webgl-utils.js"></script>
+    <script type="text/javascript" src="webgl-debug.js"></script>
+    <script type="text/javascript" src="matrix4x4.js"></script>
+    <script type="text/javascript" src="allcast.js"></script>
+  </head>
+  <body onload="main()">
+	<div style="text-align: center; color:CCC; padding-top:5px;"> <H1>Apical Allcast    		Player</H1> </div>
+    <div style="text-align: center">
+      <canvas id="c" width="1280" height="720">
+      </canvas>
+	 <video id="video">
+	      Your browser doesn't appear to support the HTML5 <code>&lt;video&gt;</code> 		element.
+	    </video>
+	 <div id="video_controls_bar" >
+	 <div id="nav">
+    <ul>
+        <li><a>Videos</a>
+        <ul>
+            <li><a href="javascript:selectVideo('1')">X Men</a></li>
+            <li><a href="javascript:selectVideo('2')">Lost</a></li>
+            <li><a href="javascript:selectVideo('3')">Other</a></li>
+        </ul>
+        </li>
+    </ul>
+</div>
+	    <button id="playpausebtn"></button>
+	    <input id="seekslider" type="range" min="0" max="100" value="0" step="1">
+	    <span id="curtimetext">00:00</span> / <span id="durtimetext">00:00</span>
+	    <button id="mutebtn">Strength</button>
+	    <input id="strengthslider" type="range" min="0.0" max="1.0" value="0.5" step="0.01">
+  <!--  <button id="fullscreenbtn">[ &nbsp; ]</button> -->
+	  </div>
+ 
+    </div>
+  </body>
+</html>
